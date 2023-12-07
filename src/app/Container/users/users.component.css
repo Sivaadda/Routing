@@ -1,0 +1,23 @@
+.cart{
+    
+    margin-left: 450px;
+}
+.cart-main{
+    text-align: center;
+}
+
+.small-cart{
+    text-align: center;
+    width: 300px;
+    padding: 25px;
+    border: 1px solid gray;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgb(190, 187, 187);
+}
+.User-name{
+    padding-right: 100px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}

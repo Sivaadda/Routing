@@ -1,0 +1,10 @@
+<div class="cart-main"><h2 class="heading-users">The List of Users</h2></div>
+<div class="cart">
+
+<div class="small-cart" *ngFor = "let m of users">
+    <span class="User-name">{{m.name}}</span>
+    <span>
+        <a [routerLink]="['/user',m.id]" routerLinkActive="active">Profile</a>
+    </span>
+</div>
+</div>

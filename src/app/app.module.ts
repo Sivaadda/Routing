@@ -3,16 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './Container/home/home.component';
+import { NavComponent } from './Container/nav/nav.component';
+
+import { UsersListService } from './users-list.service';
+import { UsersComponent } from './Container/users/users.component';
+import { UserscartComponent } from './Container/userscart/userscart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    NavComponent,
+    UsersComponent,
+    UserscartComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [UsersListService,],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

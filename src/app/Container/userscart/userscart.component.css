@@ -1,0 +1,30 @@
+.body-cart {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+img{
+  height: 130px;
+  
+  
+}
+button{
+  background-color: black;
+  color: white;
+}
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 250px;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
