@@ -13,6 +13,7 @@ import { ProductsComponent } from './Container/products/products.component';
 import { ProductListService } from './product-list.service';
 import { HttpClientModule } from '@angular/common/http';
 import { CurdoperationComponent } from './Container/curdoperation/curdoperation.component';
+import { ContactComponent } from './container/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CurdoperationComponent } from './Container/curdoperation/curdoperation.
     UsersComponent,
     UserscartComponent,
     ProductsComponent,
-    CurdoperationComponent
+    CurdoperationComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
