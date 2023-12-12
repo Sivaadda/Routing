@@ -1,1 +1,43 @@
-<p>home works!</p>
+<button (click)="getdata()" class="btn btn-primary" style="text-align:center ;">Get</button>
+
+<table>
+    <thead>
+        <tr>
+            
+            <th>id</th>
+            <th>Image</th>
+            <th>title</th>
+            <th>price</th>
+            <th>description</th>
+            <th>category</th>
+            <th>rating</th>
+
+        </tr>
+        <tr>
+            
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>rate</th>
+            <th>count</th>
+
+        </tr>
+           </thead>
+        <tbody>
+            <tr *ngFor="let m of data1">
+                <td>{{m.id}}</td>
+                <td><img src="{{m.image}}"></td>
+                <td>{{m.title}}</td>
+                <td>{{m.price}}</td>
+                <td>{{m.description}}</td>
+                <td>{{m.category }}</td>
+                <td>{{m.rating.rate}}</td>
+                <td>{{m.rating.count}}</td>
+            </tr>
+            
+        </tbody>
+ 
+</table>

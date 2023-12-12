@@ -37,7 +37,7 @@ export class UsersListService {
     },
     {
       "id": 3,
-      "name": "Alex Johnson",
+      "name": "Alex John",
       "username": "alex_johnson",
       "email": "alex.johnson@email.com",
       "age": 30,

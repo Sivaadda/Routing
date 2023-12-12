@@ -4,7 +4,9 @@
 <div class="small-cart" *ngFor = "let m of users">
     <span class="User-name">{{m.name}}</span>
     <span>
-        <a [routerLink]="['/user',m.id]" routerLinkActive="active">Profile</a>
+      <!--  <a *ngIf="show" [routerLink]="['/user',m.id]">Profile</a>  -->
+
+        <button (click)="navigation(m.id)" class="btn btn-dark">Profile</button>
     </span>
 </div>
 </div>

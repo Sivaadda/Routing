@@ -1,0 +1,18 @@
+<div class="aa">
+<a routerLink="/products">All Products</a>
+<a routerLink="/products" [queryParams]="{'category':'Electronics'}">Electronics</a>
+<a routerLink="/products" [queryParams]="{'category':'Fashion'}">Fashion</a>
+<a routerLink="/products" [queryParams]="{'category':'Sports & Outdoors'}">Sports & Outdoors</a>
+<a routerLink="/products" [queryParams]="{'category':'Home & Kitchen'}">Home & Kitchen</a>
+</div>
+<div class="body-cart">
+    <div class="card" *ngFor="let products of products">
+        
+      <p>{{products.name}}</p>
+      <p>{{products.cost}}</p>
+      <p>{{products.description}}</p>
+      <p>{{products.category}}</p>
+
+      </div>
+      
+    </div>

@@ -1,10 +1,12 @@
-
-<div>
+<ng-content></ng-content>
+<div class="rr">
     
       <a routerLink="/">Home</a>
+      <a routerLink="/products" [queryParams]="{'category':'Electronics'}">Electronics</a>
       <a routerLink="/users">Users</a>
+      <a routerLink="/curd">Curdoperation</a>
+      
   </div>
   <router-outlet></router-outlet>
 
-      
-  
+   

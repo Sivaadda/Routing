@@ -3,8 +3,11 @@ a{
     color: white;
     text-decoration: none;
 }
-div{
+.rr{
     text-align: end;
     padding: 20px;
     background-color: black;
+}
+.centerr{
+    text-align: center;
 }
